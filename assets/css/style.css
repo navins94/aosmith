@@ -511,7 +511,7 @@ img{
     content: "White";
     right: -40%;
     font-size: 14px;
-    top: -40px;
+    top: -20px;
 }
 .product_section .text_box .head.white-fast:before{
     content: "Black";
