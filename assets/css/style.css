@@ -646,4 +646,7 @@ footer ul.link li:last-child a:after{
     .product_section .text_box .head:before{
         top: -15px;
     }
+    .m-sm-2{
+        margin-top: 20px;
+    }
 }
