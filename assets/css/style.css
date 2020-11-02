@@ -227,7 +227,7 @@ img{
     background: #2B683B;
     display: inline-block;
     position: absolute;
-    left: 4rem;
+    left: 5rem;
     top: 2rem;
 }
 .explore_section .heading:after{
@@ -237,7 +237,7 @@ img{
     background: #2B683B;
     display: inline-block;
     position: absolute;
-    right: 4rem;
+    right: 5rem;
     top: 2rem;
 }
 .explore_section .section_text{
@@ -245,7 +245,7 @@ img{
     font-size: 1.35rem;
     text-align: center;
     line-height: 1.2;
-    margin-bottom: 2.5rem;
+    margin-bottom: 4rem;
 }
 .explore_section .faq_box{
     display: inline-block;
@@ -519,7 +519,7 @@ img{
 .product_section .text_box .content{
     color: white;
     font-size: 1.15rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0.5rem;
     width: 60%;
     line-height: 1.2;
 }
@@ -625,6 +625,9 @@ footer ul li a{
     -ms-transition: all ease .4s;
     -o-transition: all ease .4s;
 }
+.link .list-inline-item a{
+    padding: 0 .75rem;
+}
 footer ul li a:hover,footer ul li a:focus{
     color: #2B683B;
 }
@@ -648,5 +651,33 @@ footer ul.link li:last-child a:after{
     }
     .m-sm-2{
         margin-top: 20px;
+    }
+    .explore_section{
+        padding-bottom: 1rem;
+    }
+    .flex-sm-column-reverse{
+        flex-direction: column-reverse;
+    }
+    #accordion{
+        width: 100%;
+    }
+    .p-15{
+        padding: 15px;
+    }
+    .p-15 p{
+        color: #2C774B;
+        font-size: 1.2rem;
+    }
+    .d-hide{
+        display: none;
+    }
+    .card-header{
+        background: #F2FBF5;
+        border-bottom: 0.1rem solid #337645;
+        font-weight: 700;
+        font-size: 16px;
+    }
+     .card-header a{
+        color: #478357;
     }
 }
