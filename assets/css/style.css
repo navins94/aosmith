@@ -655,7 +655,7 @@ footer ul.link li:last-child a:after{
     .explore_section{
         padding-bottom: 1rem;
     }
-    .flex-sm-column-reverse{
+    .column-reverse{
         flex-direction: column-reverse;
     }
     #accordion{
