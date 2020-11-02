@@ -126,8 +126,10 @@
 	.header .header_box .product{
 	    display: block;
 	    margin: auto;
+	    width: 14rem;
 	}
 	.header .header_box .text_box{
+		text-align: center;
 	    margin-top: 2rem;
 	    width: 100%;
 	    margin-left: 0;
@@ -137,13 +139,15 @@
 	    font-size: 4.5rem;
 	}    
 	.compact_section .compact_circle{
-	    width: 100%;
-	    border-radius: 40%;
+        width: 30rem;
+		border-radius: 50%;
+		height: 30rem;
 	}
 	.specific_section .compact_circle{
-	    width: 100%;
-	    border-radius: 40%;
-	    margin-top: 2rem;
+        width: 28rem;
+		border-radius: 50%;
+		margin-top: 2rem;
+		height: 28rem;
 	}
 	.explore_section .heading span {
 	    padding: 0 3rem;
@@ -168,8 +172,7 @@
 		width: 2rem;
 	}
 	.specific_section .compact_circle img {
-	    width: 20rem;
-	    margin-top: 2.5rem;
+	    width: 18rem;
 	}
 	.product_section .text_box .heater{
 		margin-top: 2rem;
