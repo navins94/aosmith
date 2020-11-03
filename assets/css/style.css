@@ -715,4 +715,7 @@ footer ul.link li:last-child a:after, .m-max{
     .d-max{
         display: none;
     }
+    .specific_section .compact_circle img{
+        margin-top: 0px;
+    }
 }
