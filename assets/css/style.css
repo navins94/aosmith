@@ -437,13 +437,13 @@ img{
     font-weight: 700;
 }
 .specific_section .m_row{
-	margin-top: -7rem;
-    margin-bottom: -1.5rem;
+	margin-top: -8rem;
+    margin-bottom: -3.5rem;
 }
 .specific_section .compact_circle{
-    width: 50rem;
+    width: 55rem;
     position: relative;
-    height: 50rem;
+    height: 55rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -452,11 +452,12 @@ img{
     padding: 5rem 2rem;
     box-shadow: 0 0 2rem 0.01rem #00000030;
     margin: auto;
-    margin-top: -24.5rem;
+    margin-top: -27.5rem;
     background: white;
 }
 .specific_section .compact_circle img{
 	width: 25rem;
+    margin-top: 25px;
 }
 .order{
 	order: 2;
