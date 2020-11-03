@@ -719,3 +719,10 @@ footer ul.link li:last-child a:after, .m-max{
         margin-top: 0px;
     }
 }
+@media screen and (min-width:1920px) {
+   .specific_section .compact_circle{
+        margin-top: -24.5rem;
+        width: 50rem;
+        height: 50rem;
+   }
+}
