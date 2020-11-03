@@ -47,6 +47,7 @@
 @media(max-width: 767px){
 	body, html{
 		font-size: 12px;
+		overflow-x: hidden;
 	}
 	.navbar-dark .navbar-toggler{
 	    background: #3A7549
