@@ -422,16 +422,9 @@ img{
     display: flex;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 10rem;
-    height: 10rem;
-    padding: 1rem;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #fff;
-    border: 1px dashed #2B683B;
-    border-radius: 50%;
-    box-shadow: 0 0 2rem 0.01rem #00000030;
 }
 .specific_section .circle .text{
     color: #31724B;
@@ -520,8 +513,8 @@ img{
 .product_section2 .text_box .head,.product_section2 .text_box .content{
 	color: black;
 }
-.product_section .text_box .btn_green{
-    display: inline-block;
+.btn_green{
+        display: inline-block;
     background: #2B683B;
     border: 0;
     border-radius: .5rem;
@@ -536,10 +529,26 @@ img{
     -ms-transition: all ease .4s;
     -o-transition: all ease .4s;
 }
-.product_section .text_box .btn_green:hover,.product_section .text_box .btn_green:focus{
+.btn_green:hover, .btn_green:focus{ 
     background: white;
     color: #2B683B;
 }
+/*.product_section .text_box .btn_green{
+    display: inline-block;
+    background: #2B683B;
+    border: 0;
+    border-radius: .5rem;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: 700;
+    padding: .8rem 2rem;
+    border: 0.1rem solid #2B683B;
+    transition: all ease .4s;
+    -webkit-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    -o-transition: all ease .4s;
+}*/
 .product_section .text_box .heater{
     display: block;
     margin: auto;
