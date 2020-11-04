@@ -45,9 +45,9 @@
 			<div class="row justify-content-end">
 				<div class="col-12 col-md-7 p-0">
 					<div class="header_box">
-						<img src="./assets/images/faston_product.png" alt="#" class="product animated zoomIn">
+						<img src="./assets/images/faston_product.png" alt="#" class="product wow zoomIn">
 						<div class="text_box">
-							<img src="./assets/images/fast-on-instant-water-heater.svg" alt="#" class="logo animated slideInRight">
+							<img src="./assets/images/fast-on-instant-water-heater.svg" alt="#" class="logo wow slideInRight">
 						</div>
 					</div>
 				</div>
@@ -499,8 +499,25 @@
 <script type="text/javascript" src="assets/js/popper.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap-4.js"></script>
 <script src="./assets/js/wow.min.js"></script>
+<script src="https://gitcdn.xyz/repo/thesmart/jquery-scrollspy/0.1.3/scrollspy.js"></script>
 <script>
-new WOW().init();
+  WOW.prototype.addBox = function(element) {
+    this.boxes.push(element);
+  };
+
+  // Init WOW.js and get instance
+  var wow = new WOW();
+  wow.init();
+
+  // Attach scrollSpy to .wow elements for detect view exit events,
+  // then reset elements and add again for animation
+  $('.wow').on('scrollSpy:exit', function() {
+    $(this).css({
+      'visibility': 'hidden',
+      'animation-name': 'none'
+    }).removeClass('animated');
+    wow.addBox(this);
+  }).scrollSpy();
 </script>
 </body>
 </html>
